@@ -1,3 +1,3 @@
 package com.example.school
 
-data class Detail(var Image: Int, var classname: String, var phone:String,var name:String,var status:String)
+data class Detail(var Image: Int=0, var classname: String?=null, var phone:String?=null,var name:String?=null,var status:String?=null)
